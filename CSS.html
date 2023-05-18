@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://127.0.0.1:5500/learning%20aand%20training/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---<title>Learning and training</title>--->
+    <title>CSS</title>
+    <link rel="stylesheet" type="text/css" href="./CSS_files/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family
+family=Poiret+Oneo" rel="stylesheet"> -->
+</head>
+<body>
+ <!--  --HTMl TAGS--
+    <h1>Heading1</h1>
+    <h2>heading 2</h2>
+    <h3>heading3</h3>
+     <h4>heading 4</h4>
+     <h5>heading 5</h5>  
+    <h6>heading 6</h6> 
+
+    - paragraph tag 
+    <p> <b> Lorem ipsum dolor,</b> sit amet consectetur <i>dipisicing elit. Amet </i>a
+        ad <strong>necessitatibus iure omnis maxime </strong> in quasi adipisci fuga,<em>hello</em> optio veniam doloreum fuga, optio veniam dolor 
+        eligendi molestias autem esse labore rem incidunt.</p>
+
+
+    ---list in html--
+        <ol>
+            <li>apple</li>
+            <li>banana</li>
+            <li>mango</li>
+        </0l>
+        <ul>
+            <li>apple</li>
+            <li>banana</li>
+            <li>mango</li>
+            <ul>
+                 --self closing html tags
+                <li>yellow mango</li><br>
+                <img src="learning aand training/image/download.jpg" alt="yellow mango" width="500" height="200">
+                <li>green mango</li>
+                <img src="learning aand training/image/download.jpg" alt="green mango" width="275" height="183"> 
+            </ul>
+        </ul>
+
+         --anchor tags-
+        <a href="newpage.html">new page </a><br>
+        <a href="register.html">registration page</a> 
+
+        <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+             <h2>Home
+            <p>homepage</p>
+            </h2>
+           <div id="div1">
+            <p class="webtext active">Lorem ipsum.</p>
+            <p class="webtext" >Lorem ipsum.</p>
+            <p class="webtext">Lorem ipsum.</p>
+            <p class="webtext">Lorem ipsum.</p>
+            
+           </div>
+           <div id="div2">
+            <p class="webtext active">Lorem ipsum.</p>
+            <p class="webtext" >Lorem ipsum.</p>
+            <p class="webtext">Lorem ipsum.</p>
+            <p class="webtext">Lorem ipsum.</p>
+           </div> 
+           <h2>About</h2>
+           <img src="kevin-mueller-aeNg4YA41P8-unsplash.jpg" width="200px" height="200px";
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Nam aspernatur, consequuntur debitis incidunt exercitationem 
+            temporibus sequi ipsam molestias, et est aperiam praesentium 
+            architecto qui dolorum eligendi, quis excepturi autem? Quod.</p>
+            
+            <footer>
+
+            </footer>Website made with love
+
+        </section> -->
+        <h1>Life in the Wild</h1>
+        <div class="container">
+            <img src="./CSS_files/gary-bendig-k2U2SlK6tbM-unsplash.jpg">
+            <img src="./CSS_files/jean-wimmerlin-Cdl7BWwATPg-unsplash.jpg">
+            <img src="./CSS_files/kar-ming-moo-Q_3WmguWgYg-unsplash.jpg">
+            <img src="./CSS_files/niklas-bischop-C2eJ6WfceDM-unsplash.jpg">
+            <img src="./CSS_files/kevin-mueller-aeNg4YA41P8-unsplash.jpg">
+            <img src="./CSS_files/alexander-andrews-mEdKuPYJe1I-unsplash.jpg">
+           
+        </div>
+                                                
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

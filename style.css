@@ -1,0 +1,86 @@
+/* body{
+    background-image:url(evie-s-vz3IQy0LOaA-unsplash.jpg);
+    background-size: cover;
+}
+
+h2,p{
+    color:red;
+    text-align: center;
+    border: 5px solid rgb(113, 3, 113);
+    cursor: pointer;
+}
+p{
+    
+    color: rgb(5, 85, 5);
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; 
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family:'Poiret One',cursive;
+    text-align: right;
+}
+img{
+    float: left;
+}
+footer{
+    clear: both;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    color: rgb(198, 78, 98);
+}
+
+.webtext {
+    border: green dashed;
+}
+
+.active{
+    color: red;
+}
+#div1{
+    background-color: rgb(220, 126, 160,0.15);
+}
+
+#div2{
+    background-color: pink;
+} */
+body{
+    margin: 0px;
+    
+
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ h1{
+    font-family:cursive;
+    font-size: 3em;
+    border-bottom: 2px solid rgb(130, 4, 25);
+    border-right: 2px solid red;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
+ }
+
+
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+
+}
